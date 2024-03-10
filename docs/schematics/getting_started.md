@@ -32,3 +32,5 @@ There are some features that need external module in order to work:
 You can check the breadboard scheme and more informations [here](/docs/docs/schematics/circuit)
 
 For the moment the only option is to make capibaraZero with a breadboard but we are working on a PCB to make device more portable.
+
+After building capibaraZero board, you must flash firmware. You can download the latest from [here](https://github.com/CapibaraZero/fw/releases/)

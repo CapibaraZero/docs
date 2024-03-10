@@ -10,7 +10,7 @@ title: CapibaraZero docs
         <a href="docs/intro/" class="button-1">
             Read the docs
         </a>
-        <a class="button-1">
+        <a class="button-1" href="https://github.com/CapibaraZero/fw/releases" target="_blank">
             Download latest firmware
         </a>
     </div>
