@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: The circuit
+title: Breadboard and pins
 ---
 
 Here you can find breadboard scheme of CapibaraZero:
