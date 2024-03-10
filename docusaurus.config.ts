@@ -117,19 +117,19 @@ const config: Config = {
             },*/
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/CapibaraZero/',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'More',
+          items: [
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/CapibaraZero/',
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} capibaraZero. Built with Docusaurus.`,
     },
