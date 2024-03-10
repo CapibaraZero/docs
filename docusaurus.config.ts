@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'CapibaraZero', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -92,11 +92,11 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/docs/docs/intro',
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/schematics/circuit',
+              to: '/docs/docs/schematics/circuit',
             }
           ],
         },
