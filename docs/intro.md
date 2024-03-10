@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # CapibaraZero Docs
 
-Welcome to the CapibaraZero docs, a cheap alternative to Flipper Zero™ built on top of ESP32!
+Welcome to the CapibaraZero docs, a cheap alternative to Flipper Zero™ built on top of ESP32-S3!
 
 ## What you will find here?
 
 - How to create your CapibaraZero
 - Documentation about the CapibaraZero modules
-- Schematics
+- Schematics and how to build your CapibaraZero
 - Roadmap
 
 ### Playground
