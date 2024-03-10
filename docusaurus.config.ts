@@ -75,6 +75,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'How to build a CapibaraZero',
+          href: '/docs/docs/schematics/getting_started'
         }
  /*       {to: '/blog', label: 'Blog', position: 'left'},
         {
