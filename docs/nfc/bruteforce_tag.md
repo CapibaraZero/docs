@@ -16,4 +16,4 @@ With capibaraZero you will be able to bruteforce MIFARE classic tags and find ke
 - Wait until PN532 try keys for all sectors
 - Check on the screen if capibaraZero have found the key
 
-<img src="/img/screens/nfc/bruteforce_tag.png"/>
+<img src="/docs/img/screens/nfc/bruteforce_tag.png"/>

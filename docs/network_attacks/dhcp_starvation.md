@@ -30,4 +30,4 @@ Smaller are the subnet, less time CapibaraZero needs to finish DHCP pool.
 
 ### GUI screenshot
 
-<img src="/img/screens/network_attacks/dhcp_glutton.png" alt="DHCPGlutton screnshot" />
+<img src="/docs/img/screens/network_attacks/dhcp_glutton.png" alt="DHCPGlutton screnshot" />

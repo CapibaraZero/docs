@@ -7,7 +7,7 @@ title: CapibaraZero docs
     <h1>CapibaraZero</h1>
     <h3>A cheap alternative to FlipperZero™ based on Espressif boards</h3>
     <div class="grid-2">
-        <a href="/docs/intro/" class="button-1">
+        <a href="docs/intro/" class="button-1">
             Read the docs
         </a>
         <a class="button-1">

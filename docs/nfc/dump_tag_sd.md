@@ -16,4 +16,4 @@ title: Dump a card in the SD
 - Wait until PN532 dump all sectors and view results on the screen
 - You have 10 seconds to save dump by clicking OK button, after that, main GUI will be shown
 
-<img src="/img/screens/nfc/dump_tag.png"/>
+<img src="/docs/img/screens/nfc/dump_tag.png"/>

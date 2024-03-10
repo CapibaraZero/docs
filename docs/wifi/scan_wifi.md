@@ -19,6 +19,6 @@ The WiFi scanning scan the enviroments to search AP and store SSID, BSSID, RSSI,
 
 Scanning GUI: 
 
-![WiFi scanning page](/img/screens/wifi_scanning.png)
-![WiFi network detail page](/img/screens/wifi/wifi_details.png) 
-![WiFi network save page](/img/screens/wifi/wifi_network_save.png)
+<img src="/docs/img/screens/wifi_scanning.png" />
+<img src="/docs/img/screens/wifi/wifi_details.png" />
+<img src="/docs/img/screens/wifi/wifi_network_save.png" />

@@ -1,0 +1,26 @@
+---
+sidebar_position: 4
+title: HID Attack
+---
+
+Usually you perform an HID attack using a USB interface but capibaraZero have support also BLE HID.
+
+In this way a device can connect to capibaraZero and it will act like a HID interface. 
+
+capibaraZero HID doesn't have any type on bluetooth PIN, so as soon as a device connects, capibaraZero will start to execute the ducky script.
+
+## Configuration
+
+In the capibaraZero JSON configuration you can set BLE device name, HID manufacturer and battery level.
+
+By default the following are used:
+
+- Device name: capibaraZero HID
+- HID manufacturer: capibaraZero
+- Battery level: 100
+
+### Run attack
+
+- Go in the bluetooth attack section
+- Select HID attack
+- Connect to capibaraZero and see the ducky script running

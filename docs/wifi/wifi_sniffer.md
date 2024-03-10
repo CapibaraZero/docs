@@ -17,4 +17,6 @@ You can also apply some filter for packets. This attack can sniff EAPOL key, PMK
 - Select Sniffer and CapibaraZero will start the sniff
 - To stop press save with OK button
 
-![WiFi sniff page](/img/screens/wifi/wifi_sniff.png)
+<!-- ![WiFi sniff page]() -->
+
+<img src="/docs/img/screens/wifi/wifi_sniff.png" />

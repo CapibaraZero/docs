@@ -9,4 +9,4 @@ Actually file browser not support scrolling so you can upload 4-5 files max.
 
 Once you click OK button on selected payload it will be executed and GUI will be blocked until finish(we will add stop feature soon).
 
-<img src="/img/screens/badusb/badusb_file_explorer.png" />
+<img src="/docs/img/screens/badusb/badusb_file_explorer.png" />

@@ -5,7 +5,7 @@ title: The circuit
 
 Here you can find breadboard scheme of CapibaraZero:
 
-![breaboard_circuit](/img/scheme/board_bb.png)
+<img src="/docs/img/scheme/board_bb.png" />
 
 ## ESP32-S3 pinout
 
