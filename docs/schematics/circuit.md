@@ -40,7 +40,7 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 - IRQ: pin 4
 - RST: pin 5
 
-# Display 
+### Display 
 
 - RST: pin 4
 - DC: pin 5
@@ -48,14 +48,22 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 - SDA(MOSI): pin 11
 - SCL(SCLK): pin 13
 
-## Others ESP board
+### Buttons
+
+- Left: pin 39
+- OK: pin 40
+- Down: pin 41
+- Right: pin 42
+- Up: pin 47
+
+<!-- ## Others ESP board
 
 We currently doesn't support any board different than ESP32-S3 but we're planning to support:
 
 - ESP32
 - ESP8266
 
-If you want to try to port capibaraZero to others boards you can check [here](/docs/development/porting_to_others_boards/new_porting) a guide to do that.
+If you want to try to port capibaraZero to others boards you can check [here](/docs/development/porting_to_others_boards/new_porting) a guide to do that. -->
 <!-- We support the following non-ESP32S2/S3 boards and you can check the linked guide if you wanna adapt source code to that boards.
 
 - [ESP8266](/docs/development/porting_to_others_boards/ESP8266)

@@ -19,7 +19,7 @@ We also need to add others missing features:
 
 We follow the [Sony documentation](https://www.sony.net/Products/felica/business/tech-support/) and others open source projects to try to implement these commands.
 
-You can follow the progress of this changes [here](https://github.com/CapibaraZero/NFCFramework/issues)
+<!-- You can follow the progress of this changes [here](https://github.com/CapibaraZero/NFCFramework/issues) -->
 
 <hr />
 MIFARE, MIFARE Ultralight, MIFARE Classic and NTAG are registered trademarks of NXP B.V.
