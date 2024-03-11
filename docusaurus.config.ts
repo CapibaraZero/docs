@@ -108,10 +108,10 @@ const config: Config = {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },*/
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/',	// TODO: Add our server
-            },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/',	// TODO: Add our server
+            // },
            /* {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
