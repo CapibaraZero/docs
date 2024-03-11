@@ -29,7 +29,7 @@ There are some features that need external module in order to work:
 - SubGHZ(CC1101)
 - IR(IR board)
 
-You can check the breadboard scheme and more informations [here](/docs/docs/schematics/circuit)
+You can check the breadboard scheme and more informations [here](/docs/docs/scheme/circuit)
 
 For the moment the only option is to make capibaraZero with a breadboard but we are working on a PCB to make device more portable.
 

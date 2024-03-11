@@ -75,7 +75,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'How to build a CapibaraZero',
-          href: '/docs/docs/schematics/getting_started'
+          href: '/docs/docs/scheme/getting_started'
         }
  /*       {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -97,7 +97,7 @@ const config: Config = {
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/docs/schematics/circuit',
+              to: '/docs/docs/scheme/circuit',
             }
           ],
         },

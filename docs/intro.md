@@ -10,7 +10,7 @@ Welcome to the CapibaraZero docs, a cheap alternative to Flipper Zero™ built o
 
 - How to create your CapibaraZero
 - Documentation about the CapibaraZero modules
-- Schematics and how to build your CapibaraZero
+- scheme and how to build your CapibaraZero
 - Roadmap
 
 ### Playground
