@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Getting Started
 ---
 
-Here you can check how to build your capibaraZero. The project, actually, need an ESP32-S3 to enjoy all the features and some external modules that are listed below.
+Here you can check how to build your capibaraZero. The project, actually, need an ESP32-S3 to enjoy all the features, SD card socket, 5 push buttons and some external modules that are listed below.
 <!-- In order to build your capibaraZero you need to buy some modules. The project was born to be run in an ESP32-S3 to enjoy all the features but you can also easily adapt source to run on others ESP boards.  -->
 
 <!-- Here a table with (theoretically) supported features for each boards:
@@ -27,7 +27,7 @@ There are some features that need external module in order to work:
 - ST7789 display
 - NFC(PN532)
 - SubGHZ(CC1101)
-- IR(IR board)
+- IR(Ir transmitter + receiver)
 
 You can check the breadboard scheme and more informations [here](/docs/docs/scheme/circuit)
 
