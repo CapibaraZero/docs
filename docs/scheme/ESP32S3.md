@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-title: Breadboard and pins
+title: ESP32-S3
 ---
 
-Here you can find breadboard scheme of CapibaraZero:
+Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC:
 
 <img src="/docs/img/scheme/board_bb.png" />
 
@@ -15,7 +15,7 @@ With an ESP32-S3 board you must use the following pin if you doesn't want to mod
 
 For the SD card we must use the SPI bus.
 
-- CS: pin 21
+- CS: pin 13
 - MOSI: pin 35
 - MISO: pin 36
 - SCK: pin 37
@@ -46,7 +46,7 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 - DC: pin 5
 - CS: pin 10
 - SDA(MOSI): pin 11
-- SCL(SCLK): pin 13
+- SCL(SCLK): pin 12
 
 ### Buttons
 
