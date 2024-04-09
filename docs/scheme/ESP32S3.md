@@ -7,6 +7,12 @@ Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC:
 
 <img src="/docs/img/scheme/board_bb.png" />
 
+And here the electrical diagram:
+
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/Schematic_CapibaraZero_PCB_2024-04-09.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
+
+You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/ESP32-S3-DEVKITC-1)
+
 ## ESP32-S3 pinout
 
 With an ESP32-S3 board you must use the following pin if you doesn't want to modify source code:

@@ -7,6 +7,11 @@ Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32:
 
 <img src="/docs/img/scheme/arduino_nano_esp32_breadboard.png" />
 
+And here the electrical diagram:
+
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/Arduino_Nano_ESP32/MainScheme.png?raw=true" alt="CapibaraZero Arduino Nano ESP32 diagram"/>
+
+You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/Arduino_Nano_ESP32)
 
 ## Arduino Nano ESP32 pinout
 
