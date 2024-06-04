@@ -21,10 +21,10 @@ With an Arduino Nano ESP32 board you must use the following pin if you doesn't w
 
 For the SD card we must use the SPI bus.
 
-- MISO: pin D2
-- SCK: pin D3
-- MOSI: pin D4
-- CS: pin D5
+- CS: pin D10
+- MOSI: pin D11
+- MISO: pin D12
+- SCK: pin D13
 
 <!-- ### CC1101
 
@@ -46,16 +46,17 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 
 ### Display 
 
-- CS: pin D9
-- DC: pin D10
-- RST: pin D11
-- SDA(MOSI): D12
-- SCL(SCLK): D13
+- SCL(SCLK): D2
+- RST: pin D3
+- SDA(MOSI): D4
+- CS: pin D5
+- DC: pin D6
+- BLK: 3v3
 
 ### Buttons
 
-- Up: pin A1
-- Left: pin A2
+- Right: pin A1
+- Down: pin A2
 - OK: pin A3
-- Down: pin A6
-- Right: pin A7
+- Left: pin A4
+- Up: pin A5
