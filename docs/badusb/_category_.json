@@ -1,6 +1,6 @@
 {
   "label": "BadUSB",
-  "position": 4,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "The bluetooth module of capibaraZero"

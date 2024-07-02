@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: ESP32-S3
 ---
 
@@ -9,7 +9,7 @@ Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC:
 
 And here the electrical diagram:
 
-<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/Schematic_CapibaraZero_PCB_2024-04-09.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/MainScheme.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
 
 You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/ESP32-S3-DEVKITC-1)
 
@@ -26,16 +26,18 @@ For the SD card we must use the SPI bus.
 - MISO: pin 36
 - SCK: pin 37
 
-<!-- ### CC1101
+### SX1276
 
-For the CC1101 we must use the SPI bus. We use the same pin of SD card but make sure to change CS pin since is the one that identify the devices on SPI bus
+For the SX1276 we must use the SPI bus. We use the same pin of SD card but make sure to change CS pin since is the one that identify the devices on SPI bus.
 
-- MOSI: pin 11
-- MISO: pin 12
-- SCK: pin 13
-- CS: pin 35
-- GDO2: pin 20
-- GDO0: pin 21 -->
+We also need DIO 1 and DIO 2 pin to receive data from module in OOK/FSK mode. LoRa&trade; mode use SPI to get data.
+
+- NSS: pin 1
+- DIO2: pin 15
+- DIO1: pin 16
+- MOSI: pin 35
+- MISO: pin 36
+- SCK: pin 37
 
 ### PN532
 
@@ -48,7 +50,7 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 
 ### Display 
 
-- RST: pin 4
+- RST: Not connected
 - DC: pin 5
 - CS: pin 10
 - SDA(MOSI): pin 11

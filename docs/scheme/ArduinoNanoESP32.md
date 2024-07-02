@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: Arduino Nano ESP32
 ---
 
@@ -26,16 +26,18 @@ For the SD card we must use the SPI bus.
 - MISO: pin D12
 - SCK: pin D13
 
-<!-- ### CC1101
+### SX1276
 
-For the CC1101 we must use the SPI bus. We use the same pin of SD card but make sure to change CS pin since is the one that identify the devices on SPI bus
+For the SX1276 we must use the SPI bus. We use the same pin of SD card but make sure to change CS pin since is the one that identify the devices on SPI bus.
 
-- MOSI: pin 11
-- MISO: pin 12
-- SCK: pin 13
-- CS: pin 35
-- GDO2: pin 20
-- GDO0: pin 21 -->
+We also need DIO 1 and DIO 2 pin to receive data from module in OOK/FSK mode. LoRa&trade; mode use SPI to get data.
+
+- DIO1: pin D3
+- NSS: pin D7
+- DIO2: pin D8
+- MOSI: pin D11
+- MISO: pin D12
+- SCK: pin D13
 
 ### PN532
 
@@ -47,7 +49,7 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 ### Display 
 
 - SCL(SCLK): D2
-- RST: pin D3
+- RST: Not connected
 - SDA(MOSI): D4
 - CS: pin D5
 - DC: pin D6
