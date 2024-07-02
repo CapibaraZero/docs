@@ -5,16 +5,16 @@ title: The NFC development
 
 The NFC module of capibaraZero is powered by a PN532 module that help us to make differents things:
 
-- Read/Write ISO14443 card(Mifare only)
-- Read/Write Felica card
+- Read/Write ISO14443 card(MIFARE&trade; only)
+- Read/Write FeliCa&trade; card
 - Read/Write NTAG2xx
 - Format tag and more
 
 We also need to add others missing features:
 
-- Add FeliCa authentication support
-- Add FeliCa AES(v2) support
-- More FeliCa missing commands
+- Add FeliCa&trade; authentication support
+- Add FeliCa&trade; AES(v2) support
+- More FeliCa&trade; missing commands
 - Card emulation
 
 We follow the [Sony documentation](https://www.sony.net/Products/felica/business/tech-support/) and others open source projects to try to implement these commands.
