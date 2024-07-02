@@ -3,17 +3,21 @@ sidebar_position: 3
 title: Dump a card in the SD
 ---
 
-### Supported cards
+### Getting started
 
-- Mifare Classic and Ultralight
-- NTAG2xx
-- FeliCa
+Make sure to correctly connects the PN532 to the ESP board and check that can be found by the firmware.
 
-### Run the dump
+## Supported Card
 
-- After read card, select Dump tag to SD
+- Mifare Classic, Ultralight and NTAG2xx
+- FeliCa cards
+
+## How to read a tag
+
+- Go under NFC section
+- Select Polling ISO14443A tag for Mifare or NTAG2xx family otherwise select Polling ISO18092 for FeliCa cards
 - Put tag near PN532 reader
-- Wait until PN532 dump all sectors and view results on the screen
-- You have 10 seconds to save dump by clicking OK button, after that, main GUI will be shown
+- Wait until PN532 read tag details(UID or IDm, PMm and System code)
+- Now you can dump tag. The CapibaraZero will try each key you put in the list until it will find the right one for each sector. It will find the Key A and the Key B
 
 <img src="/docs/img/screens/nfc/dump_tag.png"/>
