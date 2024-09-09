@@ -136,6 +136,10 @@ Protocols that doesn't support one or more properties like RAW or Pulse Width/Di
 
 If you are creating a signal it's better to not include unused properties.
 
+### IRDB
+
+You can find capibaraZero's IRDB at the following [link](https://github.com/CapibaraZero/resources/tree/main/IRDB)
+
 ## How to emulate an IR signal?
 
 - Go to the IR section
