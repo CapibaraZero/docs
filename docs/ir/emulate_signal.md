@@ -142,6 +142,8 @@ If you are creating a signal it's better to not include unused properties.
 
 You can find capibaraZero's IRDB at the following [link](https://github.com/CapibaraZero/resources/tree/main/IRDB)
 
+Contributions are welcome! If you capture a signal that are not available in capibaraZero's IRDB, you can upload it under the IRDB github repository by opening a pull request after forked the repo and uploaded the IR file under the right category.
+
 ## How to emulate an IR signal?
 
 - Go to the IR section
