@@ -18,7 +18,7 @@ BOM:
 - LX-LBC3 charging/discharging module
 - 2-way switch button
 - 4 XH connector, 6 XH connector
-- 1 IR Receiver, 1 IR Transmitter
+- 1 IR Receiver, 1 IR Emitter
 - 8 pin female socket
 - 15 pin female socket
 - SX1276

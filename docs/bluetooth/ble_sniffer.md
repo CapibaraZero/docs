@@ -9,4 +9,4 @@ The BLE Sniffer of CapibaraZero can sniff BLE advertising packets, retrive some 
 
 - Go under bluetooth attack section of CapibaraZero
 - Select BLE sniffer bluetooth
-- Choose if save PCAP to SD card and until scanning finish(60 seconds)
+- Choose if save PCAP to SD card(under /bluetooth) and until scanning finish(60 seconds)

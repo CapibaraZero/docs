@@ -27,7 +27,7 @@ There are some features that need external module in order to work:
 - ST7789 display
 - NFC(PN532)
 - SubGHZ(SX1276)
-- IR(Ir transmitter + receiver)
+- IR(IR emitter + receiver)
 
 For the moment the only option is to make capibaraZero with a breadboard but we are working on a PCB to make device more portable.
 

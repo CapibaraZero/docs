@@ -18,5 +18,6 @@ You can also apply some filter for packets. This attack can sniff EAPOL key, PMK
 - To stop press save with OK button
 
 <!-- ![WiFi sniff page]() -->
+The pcap file will be saved under /wifi
 
 <img src="/docs/img/screens/wifi/wifi_sniff.png" />

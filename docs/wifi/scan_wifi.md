@@ -17,6 +17,8 @@ The WiFi scanning scan the enviroments to search AP and store SSID, BSSID, RSSI,
 - Wait until scan finish
 - Decide if you wanna save result in SD, use it for subsequent attacks or back to main menu
 
+The scan results will be saved under /wifi
+
 Scanning GUI: 
 
 <img src="/docs/img/screens/wifi_scanning.png" />

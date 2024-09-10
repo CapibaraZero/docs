@@ -1,0 +1,8 @@
+{
+  "label": "IR",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "The IR section of CapibaraZero"
+  }
+}
