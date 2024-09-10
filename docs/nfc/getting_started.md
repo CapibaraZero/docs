@@ -33,7 +33,7 @@ Read UID is always supported for all ISO14443A tags
 ## Requirements
 
 - PN532 module
-- SDCard(optional)
+- SDCard
 
 The NFC module of CapibaraZero can read almost any ISO14443A like Mifare Classic, Ultralight, ecc... and ISO18092(FeliCa) card but there are some limitation: 
 

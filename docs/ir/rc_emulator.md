@@ -7,6 +7,8 @@ title: RC Emulator
 
 CapibaraZero can also emulate entire(or partial) remote controller.
 
+Upload the RC that you want to emulate in your SD under /IR/signal_rc
+
 # Requirements
 
 - ESP32-S3

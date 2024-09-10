@@ -7,6 +7,8 @@ title: Emulate Signal
 
 CapibaraZero is able to emulate many protocols but also RAW signal that cannot be decoded by the capibaraZero.
 
+Upload the signals that you want to emulate in your SD under /IR/signals
+
 # Requirements
 
 - ESP32-S3

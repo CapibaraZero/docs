@@ -23,6 +23,8 @@ Recorded signal can be used for protocol analysis or can be sent by an IR emitte
 - Press the button that you want to record
 - Press save when the signal got received by the capibaraZero
 
+The recorded signal will saved under /IR/signals make sure that directory exists on SD, otherwise it will fail.
+
 ### Supported Protocols:
 
 
