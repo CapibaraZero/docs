@@ -1,6 +1,6 @@
 {
   "label": "Porting to others ESP boards",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "You didn't like ESP32S3? You're in the right place. Here you will be guided to change source code in order to use CapibaraZero in different ESP boards"
