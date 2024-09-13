@@ -15,6 +15,7 @@ In order to use some feature of the capibaraZero you need to prepare a SD card w
 ├── arp_poisoner
 ├── NFC
 ├── subghz
+    ├── raw_capture
 ├── ducky
 ├── wifi
 ├── bluetooth
@@ -22,3 +23,5 @@ In order to use some feature of the capibaraZero you need to prepare a SD card w
     ├── signals
     ├── signal_rc
 ```
+
+If you are on a Linux based distribution with wipefs, parted and mkfs.fat installed, you can use [this script](https://github.com/CapibaraZero/resources/blob/main/scripts/make_sdcard.sh) to make the SD card structure
