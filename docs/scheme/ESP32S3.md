@@ -3,7 +3,7 @@ sidebar_position: 3
 title: ESP32-S3
 ---
 
-Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC:
+Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC(photo is outdated):
 
 <img src="/docs/img/scheme/board_bb.png" />
 
@@ -23,8 +23,8 @@ For the SD card we must use the SPI bus.
 
 - CS: pin 13
 - MOSI: pin 35
-- MISO: pin 36
-- SCK: pin 37
+- MISO: pin 37
+- SCK: pin 36
 
 ### SX1276
 
@@ -36,7 +36,7 @@ We also need DIO 1 and DIO 2 pin to receive data from module in OOK/FSK mode. Lo
 - DIO2: pin 15
 - DIO1: pin 16
 - MOSI: pin 35
-- MISO: pin 36
+- MISO: pin 7
 - SCK: pin 37
 
 ### PN532
@@ -45,16 +45,23 @@ Make sure to put PN532 in I2C mode since we use it in this way. You can also use
 
 - SDA: pin 8
 - SCL: pin 9
-- IRQ: pin 4
-- RST: pin 5
 
 ### Display 
 
-- RST: Not connected
+- RST: 4
 - DC: pin 5
 - CS: pin 10
 - SDA(MOSI): pin 11
 - SCL(SCLK): pin 12
+
+### IR
+
+- Emitter: 14
+- Receiver: 6
+
+### TP4057
+
+- BAT+: 2
 
 ### Buttons
 

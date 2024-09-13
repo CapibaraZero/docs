@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Arduino Nano ESP32
 ---
 
-Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32:
+Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32(photo is outdated):
 
 <img src="/docs/img/scheme/arduino_nano_esp32_breadboard.png" />
 
@@ -32,28 +32,37 @@ For the SX1276 we must use the SPI bus. We use the same pin of SD card but make 
 
 We also need DIO 1 and DIO 2 pin to receive data from module in OOK/FSK mode. LoRa&trade; mode use SPI to get data.
 
-- DIO1: pin D3
+- DIO1: pin D0
 - NSS: pin D7
-- DIO2: pin D8
+- DIO2: pin D1
 - MOSI: pin D11
-- MISO: pin D12
+- MISO: pin D9
 - SCK: pin D13
 
 ### PN532
 
 Make sure to put PN532 in I2C mode since we use it in this way. You can also use in UART mode or SPI mode but you need to change source code
 
-- SCL: pin A4
-- SDA: pin A5
+- SCL: pin A6
+- SDA: pin A7
 
 ### Display 
 
-- SCL(SCLK): D2
+- SCL(SCLK): D4
 - RST: Not connected
-- SDA(MOSI): D4
-- CS: pin D5
-- DC: pin D6
+- SDA(MOSI): D2
+- CS: pin D6
+- DC: pin D5
 - BLK: 3v3
+
+### IR
+
+- Emitter: D3
+- Receiver: D8
+
+### TP4057
+
+- BAT+: A0
 
 ### Buttons
 
