@@ -7,7 +7,7 @@ Based on the electrical diagram, we also create PCB so you can solder components
 
 The PCB project files are available [here](https://github.com/CapibaraZero/resources/tree/main/PCB/Arduino_Nano_ESP32/). You will find the EasyEDA project and the gerber file.
 
-You also need to build the Navigation Board, for more information go [here](/docs/docs/pcb/Navigation_Board)
+You also need to build the Navigation Board, for more information go [here](/docs/pcb/Navigation_Board)
 
 This PCB feature also a TP4057 charging module(LX-LBC3) that includes charging and discharging functionality. It requires a 3.7V lithium battery.
 

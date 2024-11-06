@@ -23,4 +23,4 @@ CapibaraZero captive portal act like a web server so you can upload CSS, JS or o
 
 ### GUI
 
-<img src="/docs/img/screens/network_attacks/evilportal.png" alt="EvilPortal GUI screenshot" />
+<img src="/img/screens/network_attacks/evilportal.png" alt="EvilPortal GUI screenshot" />

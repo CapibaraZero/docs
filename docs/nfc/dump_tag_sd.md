@@ -22,4 +22,4 @@ Make sure to correctly connects the PN532 to the ESP board and check that can be
 
 The dump will be saved under /NFC
 
-<img src="/docs/img/screens/nfc/dump_tag.png"/>
+<img src="/img/screens/nfc/dump_tag.png"/>

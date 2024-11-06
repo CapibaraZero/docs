@@ -5,7 +5,7 @@ title: ESP32-S3
 
 Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC(photo is outdated):
 
-<img src="/docs/img/scheme/board_bb.png" />
+<img src="/img/scheme/board_bb.png" />
 
 And here the electrical diagram:
 
@@ -78,11 +78,11 @@ We currently doesn't support any board different than ESP32-S3 but we're plannin
 - ESP32
 - ESP8266
 
-If you want to try to port capibaraZero to others boards you can check [here](/docs/development/porting_to_others_boards/new_porting) a guide to do that. -->
+If you want to try to port capibaraZero to others boards you can check [here](/development/porting_to_others_boards/new_porting) a guide to do that. -->
 <!-- We support the following non-ESP32S2/S3 boards and you can check the linked guide if you wanna adapt source code to that boards.
 
-- [ESP8266](/docs/development/porting_to_others_boards/ESP8266)
-- [ESP32](/docs/development/porting_to_others_boards/ESP32)
-- [ESP32C3/C6](/docs/development/porting_to_others_boards/ESP32C3_C6)
+- [ESP8266](/development/porting_to_others_boards/ESP8266)
+- [ESP32](/development/porting_to_others_boards/ESP32)
+- [ESP32C3/C6](/development/porting_to_others_boards/ESP32C3_C6)
 
 -->
