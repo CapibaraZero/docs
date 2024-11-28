@@ -8,15 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://capibarazero.github.io/',
+  url: 'https://capibarazero.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CapibaraZero', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -75,7 +70,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'How to build a CapibaraZero',
-          href: '/docs/docs/scheme/getting_started'
+          href: '/docs/scheme/getting_started'
         }
  /*       {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -93,11 +88,11 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/docs/intro',
+              to: '/docs/intro',
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/docs/scheme/getting_started',
+              to: '/docs/scheme/getting_started',
             }
           ],
         },

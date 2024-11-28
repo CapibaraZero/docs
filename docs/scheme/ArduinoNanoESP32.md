@@ -5,7 +5,7 @@ title: Arduino Nano ESP32
 
 Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32(photo is outdated):
 
-<img src="/docs/img/scheme/arduino_nano_esp32_breadboard.png" />
+<img src="/img/scheme/arduino_nano_esp32_breadboard.png" />
 
 And here the electrical diagram:
 

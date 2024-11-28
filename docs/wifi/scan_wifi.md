@@ -21,6 +21,6 @@ The scan results will be saved under /wifi
 
 Scanning GUI: 
 
-<img src="/docs/img/screens/wifi_scanning.png" />
-<img src="/docs/img/screens/wifi/wifi_details.png" />
-<img src="/docs/img/screens/wifi/wifi_network_save.png" />
+<img src="/img/screens/wifi_scanning.png" />
+<img src="/img/screens/wifi/wifi_details.png" />
+<img src="/img/screens/wifi/wifi_network_save.png" />
