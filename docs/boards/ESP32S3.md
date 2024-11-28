@@ -3,6 +3,24 @@ sidebar_position: 3
 title: ESP32-S3
 ---
 
+<img src="/img/boards/esp32_s3_devkitc.png" />
+
+| Feature | Specs |
+|:-------:|:----------------------------------------------------------------:|
+|    Module  | ESP32-S3-WROOM-1U |
+|    Flash   |        16MB       |
+|    PSRAM   |        :x:        |
+|   Screen** |      240x140      |
+|   SubGHZ   |       SX1276      |
+| Navigation | Navigation button |
+|    WiFi    | :white_check_mark:|
+|    BLE     | :white_check_mark:|
+|  USB OTG   | :white_check_mark:|
+|    NFC     |       PN532       |
+| Battery chip | TP4057 |
+
+** You can change dimension in project config
+
 Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC(photo is outdated):
 
 <img src="/img/scheme/board_bb.png" />

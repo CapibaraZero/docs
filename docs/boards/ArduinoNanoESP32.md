@@ -3,6 +3,22 @@ sidebar_position: 2
 title: Arduino Nano ESP32
 ---
 
+<img src="/img/boards/arduino_nano_esp32.png" />
+
+| Feature | Specs |
+|:-------:|:----------------------------------------------------------------:|
+|      Module  | NORA-W106(ESP32-S3) |
+|      Flash   |        16MB         |
+|      PSRAM   |        :x:       |
+|     Screen** |      240x140      |
+|     SubGHZ   |       SX1276      |
+|   Navigation | Navigation button |
+|      WiFi    | :white_check_mark:|
+|      BLE     | :white_check_mark:|
+|    USB OTG   | :white_check_mark:|
+|      NFC     |       PN532       |
+| Battery chip | TP4057 |
+
 Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32(photo is outdated):
 
 <img src="/img/scheme/arduino_nano_esp32_breadboard.png" />
