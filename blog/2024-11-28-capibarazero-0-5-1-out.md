@@ -37,3 +37,8 @@ CapibaraZero isn't limited to 4-5 files for IR emulator or BadUSB anymore! You c
 ## LilyGo T-Embed CC1101
 
 CapibaraZero support LilyGo T-Embed CC1101! It's a great board with a really nice case and a good battery life. Perfect to make a portable capibaraZero without building PCB or printing case!
+
+Join discussion at:
+
+- [Matrix](https://matrix.to/#/#capibarazero:capibarazero.com)
+- [Discord](https://discord.gg/77f3BHvnhf)
