@@ -21,13 +21,13 @@ title: ESP32-S3
 
 ** You can change dimension in project config
 
-Here you can find breadboard scheme of CapibaraZero on ESP32 S3 DevkitC(photo is outdated):
+Here you can find breadboard boards of CapibaraZero on ESP32 S3 DevkitC(photo is outdated):
 
-<img src="/img/scheme/board_bb.png" />
+<img src="/img/boards/board_bb.png" />
 
 And here the electrical diagram:
 
-<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/MainScheme.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/Mainboards.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
 
 You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/ESP32-S3-DEVKITC-1)
 

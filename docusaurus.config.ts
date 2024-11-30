@@ -87,7 +87,7 @@ const config: Config = {
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/scheme/getting_started',
+              to: '/docs/boards/getting_started',
             }
           ],
         },
