@@ -23,7 +23,7 @@ Once you finish, build and check if capibaraZero GUI starts or you need to troub
 
 If you are adding a board that are not based on a officially supported platform(ESP32 or ESP8266) or you are using particular board(mini version, etc...), you may want to add safeguard #ifdef in GUI element to avoid unsupported attacks.
 
-[Here](https://github.com/CapibaraZero/fw/blob/main/lib/UI/gui.hpp#L45) and [here](https://github.com/CapibaraZero/fw/blob/main/lib/UI/gui.cpp#L43) you can find an example with ESP32-S2 and S3: ESP32-S2 doesn't supports BLE and only ESP32-S2/S3 supports BadUSB attacks.
+<!-- [Here](https://github.com/CapibaraZero/fw/blob/main/lib/UI/gui.hpp#L45) and [here](https://github.com/CapibaraZero/fw/blob/main/lib/UI/gui.cpp#L43) you can find an example with ESP32-S2 and S3: ESP32-S2 doesn't supports BLE and only ESP32-S2/S3 supports BadUSB attacks. -->
 
 The safeguard usually need an #ifdef or #ifndef and CONFIG_IDF_TARGET_ESP32XX.
 

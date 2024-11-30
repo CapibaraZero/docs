@@ -70,14 +70,9 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'How to build a CapibaraZero',
-          href: '/docs/scheme/getting_started'
-        }
- /*       {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        }, */
+          href: '/docs/boards/getting_started'
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
@@ -92,34 +87,30 @@ const config: Config = {
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/scheme/getting_started',
+              to: '/docs/boards/getting_started',
             }
           ],
         },
         {
           title: 'Community',
           items: [
-         /*   {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },*/
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/',	// TODO: Add our server
-            // },
-           /* {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },*/
+            {
+              label: "Matrix",
+              href: "https://matrix.to/#/#capibarazero:capibarazero.com"
+            },
+            {
+              label: "Discord",
+              href: "https://discord.gg/4uvMS843"
+            }
           ],
         },
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/CapibaraZero/',

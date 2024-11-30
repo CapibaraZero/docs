@@ -3,13 +3,29 @@ sidebar_position: 2
 title: Arduino Nano ESP32
 ---
 
-Here you can find breadboard scheme of CapibaraZero on Arduino Nano ESP32(photo is outdated):
+<img src="/img/boards/arduino_nano_esp32.png" />
 
-<img src="/img/scheme/arduino_nano_esp32_breadboard.png" />
+| Feature | Specs |
+|:-------:|:----------------------------------------------------------------:|
+|      Module  | NORA-W106(ESP32-S3) |
+|      Flash   |        16MB         |
+|      PSRAM   |        :x:       |
+|     Screen** |      240x140      |
+|     SubGHZ   |       SX1276      |
+|   Navigation | Navigation button |
+|      WiFi    | :white_check_mark:|
+|      BLE     | :white_check_mark:|
+|    USB OTG   | :white_check_mark:|
+|      NFC     |       PN532       |
+| Battery chip | TP4057 |
+
+Here you can find breadboard boards of CapibaraZero on Arduino Nano ESP32(photo is outdated):
+
+<img src="/img/boards/arduino_nano_esp32_breadboard.png" />
 
 And here the electrical diagram:
 
-<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/Arduino_Nano_ESP32/MainScheme.png?raw=true" alt="CapibaraZero Arduino Nano ESP32 diagram"/>
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/Arduino_Nano_ESP32/Mainboards.png?raw=true" alt="CapibaraZero Arduino Nano ESP32 diagram"/>
 
 You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/Arduino_Nano_ESP32)
 

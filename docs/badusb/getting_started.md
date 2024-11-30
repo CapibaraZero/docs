@@ -35,7 +35,7 @@ The following keywords can be used:
 |     DISABLE_BUTTON     | :white_check_mark: |
 |      ENABLE_BUTTON     | :white_check_mark: |
 | LED_G/LED_R/LED_OFF    | :white_check_mark: |
-|        Attackmode      |      :warning:     |
+|        Attackmode      | :white_check_mark: |
 |          DEFINE        | :white_check_mark: |
 |           VAR          | :white_check_mark: |
 |        Operators       |         :x:        |
@@ -46,7 +46,7 @@ The following keywords can be used:
 |         Jitter         | :white_check_mark: |
 |   Wait for lock keys   |      :warning:     |
 
-- Attackmode can be parsed but implementation is not available yet. 
+- Attackmode composite mode not available yet(HID + STORAGE)
 - Wait for lock keys can be parsed but implementation is not available yet.
 - Wait for button press can be parsed but implementation is not available yet.
 - The other keywords(also the one that there aren't in the table) will be available in future

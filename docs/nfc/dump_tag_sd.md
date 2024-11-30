@@ -20,6 +20,6 @@ Make sure to correctly connects the PN532 to the ESP board and check that can be
 - Wait until PN532 read tag details(UID or IDm, PMm and System code)
 - Now you can dump tag. The CapibaraZero will try each key you put in the list until it will find the right one for each sector. It will find the Key A and the Key B
 
-The dump will be saved under /NFC
+The dump will be saved under /NFC/dumps in binary format(useful to analyze tag data) and JSON format(useful for clone).
 
 <img src="/img/screens/nfc/dump_tag.png"/>
