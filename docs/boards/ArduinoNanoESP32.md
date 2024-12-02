@@ -25,7 +25,7 @@ Here you can find breadboard boards of CapibaraZero on Arduino Nano ESP32(photo 
 
 And here the electrical diagram:
 
-<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/Arduino_Nano_ESP32/Mainboards.png?raw=true" alt="CapibaraZero Arduino Nano ESP32 diagram"/>
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/Arduino_Nano_ESP32/MainScheme.png?raw=true" alt="CapibaraZero Arduino Nano ESP32 diagram"/>
 
 You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/Arduino_Nano_ESP32)
 
