@@ -27,7 +27,7 @@ Here you can find breadboard boards of CapibaraZero on ESP32 S3 DevkitC(photo is
 
 And here the electrical diagram:
 
-<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/Mainboards.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
+<img src="https://github.com/CapibaraZero/resources/blob/main/electrical_diagram/ESP32-S3-DEVKITC-1/MainScheme.png?raw=true" alt="CapibaraZero ESP32-S3-DEVKITC-1 Electrical diagram" />
 
 You can also download the original project [here](https://github.com/CapibaraZero/resources/tree/main/electrical_diagram/ESP32-S3-DEVKITC-1)
 
