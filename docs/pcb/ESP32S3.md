@@ -27,4 +27,5 @@ BOM:
 - ESP32-S3-DevKitC-1
 - 18650 3.3v battery and 18650 battery socket or a LiPo battery
 
-You can find the case STL [here](https://github.com/CapibaraZero/resources/tree/main/STL/ESP32-S3-DEVKITC-1) (thanks to [XyDrive](https://github.com/XyDrive)!) 
+<!-- Wait for a tutorial on mounting -->
+<!--You can find the case STL [here](https://github.com/CapibaraZero/resources/tree/main/STL/ESP32-S3-DEVKITC-1) (thanks to [XyDrive](https://github.com/XyDrive)!)  -->
