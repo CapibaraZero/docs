@@ -10,7 +10,7 @@ title: ESP32-S3
 |    Module  | ESP32-S3-WROOM-1U |
 |    Flash   |        16MB       |
 |    PSRAM   |        :x:        |
-|   Screen** |      240x140      |
+|   Screen** |      240x320      |
 |   SubGHZ   |       SX1276      |
 | Navigation | Navigation button |
 |    WiFi    | :white_check_mark:|
