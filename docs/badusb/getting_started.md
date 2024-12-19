@@ -50,3 +50,26 @@ The following keywords can be used:
 - Wait for lock keys can be parsed but implementation is not available yet.
 - Wait for button press can be parsed but implementation is not available yet.
 - The other keywords(also the one that there aren't in the table) will be available in future
+
+## Setting keyboard layout
+
+You can set keyboard layout by appending at the beginning of a payload the LAYOUT keyword.
+
+Example
+
+```txt
+LAYOUT it_IT
+PRINTLN Hello, World!
+```
+
+Supported layouts:
+
+- de_DE
+- es_ES
+- fr_FR
+- it_IT
+- pt_PT
+- pt_BR
+- sv_SE
+- da_DK
+- hu_HU
