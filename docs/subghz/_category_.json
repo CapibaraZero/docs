@@ -1,9 +1,8 @@
 {
-    "label": "SubGHZ",
-    "position": 4,
-    "link": {
-      "type": "generated-index",
-      "description": "SubGHZ module of CapibaraZero"
-    }
+  "label": "SubGHZ",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "SubGHZ module of CapibaraZero"
   }
-  
+}
