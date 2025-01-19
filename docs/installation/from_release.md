@@ -5,12 +5,6 @@ title: From Release
 
 ## Requirements:
 
-:::warning
-
-It is strongly advised to use baremetal **Linux**, or **WSL**, for installing from source.
-
-:::
-
 - Python3
 - esptool
 
