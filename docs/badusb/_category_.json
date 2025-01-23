@@ -1,6 +1,6 @@
 {
   "label": "BadUSB",
-  "position": 4,
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": "The BadUSB module of capibaraZero"
