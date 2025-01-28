@@ -173,6 +173,149 @@ title: API
 
 **Return: null**
 
+## GUI
+
+Some GUI primitives to create interactive application.
+
+- ```create_text_widget(text_color, str, size, text_wrap, x_pos, y_pos, display) ```
+
+**Description: Create and show a Text widget**
+
+**Params:**
+- Text color: Color of the text. Please follow this [table](/docs/appsjs/display_color) to put the correct value.
+- String: Text to be printed on the display
+- Size(integer): Text size.
+- Text wrap(boolean): If the width of the display doesn't contains the string, the text will be wrapped.
+- X position(integer): Coordinate on X axis where place the text
+- Y position(integer): Coordinate on Y axis where place the text
+- Display(boolean): Whether display the text or not
+
+**Return: A Text object**
+
+--- 
+
+- ```set_text(text_ptr, str) ```
+
+**Description: Set text of a Text widget**
+
+**Params:**
+- Text ptr: Pointer to the Text widget. Can be found in `text.ptr` assuming `text` is the variable where you store the text widget.
+- String: Text to be wrote in widget
+
+**Return: null**
+
+--- 
+
+- ```text_set_position(text_ptr, x, y) ```
+
+**Description: Set position of a Text widget**
+
+**Params:**
+- Text ptr: Pointer to the Text widget. Can be found in `text.ptr` assuming `text` is the variable where you store the text widget.
+- X pos: X position where the widget will be moved
+- Y pos: Y position where the widget will be moved
+
+**Return: null**
+
+--- 
+
+- ```create_grid_widget(rows, cols) ```
+
+**Description: Create and show a Grid widget**
+
+**Params:**
+- Rows: Rows in the grid container
+- Cols: Cols in the grid container
+
+**Return: A Grid object**
+
+--- 
+
+- ```grid_add_widget(widget_ptr) ```
+
+**Description: Add a generic widget to the grid**
+
+**Params:**
+- Widget pointer: A pointer reference to widget(can be found under ptr property of a widget object)
+
+**Return: null**
+
+--- 
+
+- ```grid_set_selected(pos, status) ```
+
+**Description: Move the selection to specified position**
+
+**Params:**
+- Position(number): Index of the widget to be selected
+- Status(boolean): Whether select or deselect the widget
+
+**Return: null**
+
+--- 
+
+- ```grid_set_y_spacing(y_spacing) ```
+
+**Description: Set grid vertical spacing**
+
+**Params:**
+- Y spacing(integer): Y(vertical) spacing
+
+**Return: null**
+
+--- 
+
+- ```grid_set_space_betweem(space_between) ```
+
+**Description: Set grid horizontal spacing**
+
+**Params:**
+- space_between(integer): Horizontal spacing
+
+**Return: null**
+
+--- 
+
+- ```grid_display() ```
+
+**Description: Display the grid**
+
+**Return: null**
+
+--- 
+
+- ```create_list_widget(text, font_size, font_color, height, rect_color, uid) ```
+
+**Description: Create a List(button) widget**
+
+**Params:**
+- Text(string): Text that will be showed inside button
+- Font size(number): Font size for the text
+- Font color(Color): [ST7789 color](/docs/appsjs/display_color.md) for the Text
+- Height(number): Height of the widget
+- Rect color(Color): Color of the widget
+- Unique ID: ID for your widget. MUST BE UNIQUE. It will be used to call callback.
+
+**Return: null**
+
+You can create the callback using this snippets:
+
+```js
+global.LIST_UID = function () { // Replace with your real UID
+	// Your JS code
+}
+```
+
+When the list widget will be clicked, this function will be called.
+
+--- 
+
+- ```goto_main_gui() ```
+
+**Description: Close current app and return to main page**
+
+**Return: null**
+
 ## IO
 
 - ```pinMode(pin, mode) ```
@@ -195,7 +338,7 @@ title: API
 
 **Description: Porting to JS of arduino-esp32 digitalRead**
 
-**Return: null**
+**Return: uint16**
 
 ---
 
@@ -211,7 +354,7 @@ title: API
 
 **Description: Return milliseconds from MCU startup**
 
-**Return: null**
+**Return: uint32**
 
 ---
 
@@ -275,34 +418,6 @@ title: API
 **Description: Read UID of ISO14443A card**
 
 **Return: An array rappresenting the UID(4-7 bytes)**
-
-## WiFi
-
----
-- ```wifi_scan() ```
-
-**Description: Start a WiFi scan and return result**
-
-**Return: JSON string of WiFi scan result**
-
----
-
-- ```wifi_sniff(time) ```
-
-**Description: Start a WiFi sniffer and saving result under default path(/wifi/millis.pcap)**
-
-**Params:**
-- Time: Time before switching channel
-
-**Return: null**
-
----
-
-- ```wifi_sniffer_stop() ```
-
-**Description: Stop WiFi sniffer**
-
-**Return: null**
 
 ## Storage
 
