@@ -301,7 +301,7 @@ Some GUI primitives to create interactive application.
 You can create the callback using this snippets:
 
 ```js
-global.LIST_UID = function () { // Replace with your real UID
+global.LIST_UID_on_click = function () { // Replace with your real UID
 	// Your JS code
 }
 ```

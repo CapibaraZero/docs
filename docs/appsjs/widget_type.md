@@ -20,7 +20,7 @@ The list widget can be seen as a button. It's the default button widget used in 
 In Javascript you can create the callback using this snippets: 
 
 ```js
-global.LIST_UID = function () { // Replace with your real UID
+global.LIST_UID_on_click = function () { // Replace with your real UID
 	// Your JS code
 }
 ```
