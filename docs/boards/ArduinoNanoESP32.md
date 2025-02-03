@@ -9,7 +9,7 @@ title: Arduino Nano ESP32
 |:-------:|:----------------------------------------------------------------:|
 |      Module  | NORA-W106(ESP32-S3) |
 |      Flash   |        16MB         |
-|      PSRAM   |        :x:       |
+|      PSRAM   |        8MB      |
 |     Screen** |      240x320      |
 |     SubGHZ   |       SX1276      |
 |   Navigation | Navigation button |
