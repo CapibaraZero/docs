@@ -29,10 +29,19 @@ To obtain the source code for a particular release, it can be downloaded from th
 
 ## Install:
 
+:::info
+
+If you installed platformio from Python pip, you may need to run `python3 -m platformio run` instead of `pio run`.
+
+:::
+
 ```
 # Init NFC libs
-bash init_nfc_libs.sh
+bash init_libs.sh
+
 pio run
+# OR python3 -m platformio run
+
 # To upload firmware
 pio run -t upload
 ```
