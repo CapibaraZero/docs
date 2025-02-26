@@ -7,13 +7,25 @@ title: Code structure
 
 ## Feature framework
 
-Almost every feature(NFC, IR, etc.) have a framework that works as layer between UI code that launch the attack and the attack code. This make more easy to fix or improve a single attack.
+Most complex feature have a framework that works as layer between UI code that launch the attack and the attack code. This make more easy to fix or improve a single attack.
 
 Also, this separation made the attack code easy to find and easier to understand. The typical framework code is designed to works without the capibaraZero's code so the framework can be used as a standalone library for every project.
 
+You can find frameworks used in capibaraZero here:
+
+- [NFCFramework](https://github.com/CapibaraZero/NFCFramework)
+- [IrFramework](https://github.com/CapibaraZero/IrFramework)
+- [HID](https://github.com/CapibaraZero/HID)
+
+Others feature have only a library included in the main repository. For example:
+
+- [Networks attacks](https://github.com/CapibaraZero/fw/blob/main/lib/network_attacks/network_attacks.cpp)
+
+If you are unsure where to add your code, feel free to open an issue on GitHub or write on Matrix/Discord server.
+
 ## Attack code
 
-Every section have a corresponding section_attacks.cpp/.hpp files, they are used to start an attack from the framework and usually are the attack code includes also tasks that need to be run to avoid UI block or because they run until they are stopped by the user or by a condition. This tasks, except in rare cases, controls also the UI if the content is dynamic(e.g WiFi scan progress).
+Every section have a corresponding section_attacks.cpp/.hpp files, they are used to start an attack from the framework and usually the attack code includes also tasks that need to be run to avoid UI block or because they run until they are stopped by the user or by a condition. This tasks, except in rare cases, controls also the UI if the content is dynamic(e.g WiFi scan progress).
 
 ## UI navigation
 

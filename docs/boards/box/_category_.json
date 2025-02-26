@@ -1,0 +1,10 @@
+{
+    "label": "Box",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Check this section to build your CapibaraZero"
+    },
+    "className": "hidden"
+  }
+  
