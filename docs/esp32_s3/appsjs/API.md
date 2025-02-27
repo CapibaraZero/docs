@@ -182,7 +182,7 @@ Some GUI primitives to create interactive application.
 **Description: Create and show a Text widget**
 
 **Params:**
-- Text color: Color of the text. Please follow this [table](/docs/appsjs/display_color) to put the correct value.
+- Text color: Color of the text. Please follow this [table](/docs/esp32_s3/appsjs/display_color) to put the correct value.
 - String: Text to be printed on the display
 - Size(integer): Text size.
 - Text wrap(boolean): If the width of the display doesn't contains the string, the text will be wrapped.
@@ -291,7 +291,7 @@ Some GUI primitives to create interactive application.
 **Params:**
 - Text(string): Text that will be showed inside button
 - Font size(number): Font size for the text
-- Font color(Color): [ST7789 color](/docs/appsjs/display_color.md) for the Text
+- Font color(Color): [ST7789 color](/docs/esp32_s3/appsjs/display_color.md) for the Text
 - Height(number): Height of the widget
 - Rect color(Color): Color of the widget
 - Unique ID: ID for your widget. MUST BE UNIQUE. It will be used to call callback.

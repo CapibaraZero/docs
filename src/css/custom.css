@@ -34,9 +34,9 @@
   background-color: rgb(16, 16, 220);
 }
 
-.grid-3 {
+.grid-4 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
 

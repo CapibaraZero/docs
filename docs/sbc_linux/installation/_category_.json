@@ -1,0 +1,8 @@
+{
+  "label": "Installation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Flashing CapibaraZero to your device, both manually and using the web flasher"
+  }
+}

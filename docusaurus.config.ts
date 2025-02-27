@@ -70,7 +70,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'How to build a CapibaraZero',
-          href: '/docs/boards/getting_started'
+          href: '/docs/esp32_s3/boards/getting_started'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
       ],
@@ -87,7 +87,7 @@ const config: Config = {
             },
             {
               label: 'How to build a CapibaraZero',
-              to: '/docs/boards/getting_started',
+              to: '/docs/esp32_s3/boards/getting_started',
             }
           ],
         },

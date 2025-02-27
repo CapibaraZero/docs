@@ -1,0 +1,6 @@
+---
+sidebar_position: 3 
+title: BLE Sniffer
+---
+
+The BLE Sniffer of CapibaraZero can sniff BLE advertising packets, retrive some informations from it and save the captured data in a PCAP file readable with Wireshark.

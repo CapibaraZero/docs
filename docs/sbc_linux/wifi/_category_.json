@@ -1,0 +1,8 @@
+{
+  "label": "The WIFI module",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Wifi features of CapibaraZero"
+  }
+}

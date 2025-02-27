@@ -40,7 +40,7 @@ Name property give a name to the command, it's better do not exceed the 6 charac
 
 ### Other properties
 
-For the other properties check here: [IR protocol format](/ir/emulate_signal.md#signal-file-format)
+For the other properties check here: [IR protocol format](/esp32_s3/ir/emulate_signal.md#signal-file-format)
 
 ### Notes
 

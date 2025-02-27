@@ -1,0 +1,25 @@
+---
+sidebar_position: 5
+title: Clone tag
+---
+
+
+### Getting started
+
+Make sure to correctly connects the PN532 to the ESP board and check that can be found by the firmware.
+Now make sure that you have the right key for both card if you wanna read/write all the sector, otherwise you will get an authentication error. Save original card key under /NFC/original.key and cloned card key under /NFC/cloned.key
+
+### Supported cards
+
+- ISO14443A tag(only reading UID then can be written in a supported clonable card)
+- Mifare Classic and Ultralight
+- NTAG2xx
+- Felica support is WIP
+
+### How to use?
+
+- Under the NFC menu select clone tag
+- Put the path of original and the cloned card key(eg. /NFC/original.key) in the prompt
+- Put the tag near the PN532 and wait until the tag get read
+- Put the target tag near the PN532, confirm from the CLI that you wanna finish clone and wait until all the sectors will be written. 
+

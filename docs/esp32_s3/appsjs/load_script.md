@@ -5,7 +5,7 @@ title: Load a script
 
 capibaraZero, from version 0.5.2, supports loading scripts from SD called AppsJS. They act as applications that brings new features to capibaraZero.
 
-For who want to write JS script for capibaraZero, AppsJS implements this [API](/docs/appsjs/API) that works as a layer between capibaraZero's native code and JS runtime.
+For who want to write JS script for capibaraZero, AppsJS implements this [API](/docs/esp32_s3/appsjs/API) that works as a layer between capibaraZero's native code and JS runtime.
 
 ## Load a scripts from SD
 
